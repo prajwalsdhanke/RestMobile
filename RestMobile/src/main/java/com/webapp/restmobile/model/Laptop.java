@@ -11,6 +11,11 @@ public class Laptop {
 	
 	
 	
+	
+	@Override
+	public String toString() {
+		return "Laptop [id=" + id + ", brand=" + brand + ", serialNumber=" + serialNumber + "]";
+	}
 	public Laptop(long id, String brand, String serialNumber) {
 		super();
 		this.id = id;
